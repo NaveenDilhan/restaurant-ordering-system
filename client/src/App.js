@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Orders from "./components/Orders";
 import AdminDashboard from "./components/AdminDashboard";
+import OrderStatus from "./components/OrderStatus";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/orderstatus" element={<OrderStatus/>} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
